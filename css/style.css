@@ -588,16 +588,17 @@ hr {
     background-color: transparent;
     box-shadow: 0 0 1px 2px #18422f,
     0px 4px 10px 2px #18422f;
-    animation-duration: 2.5s;
+    animation-duration: 1.5s;
+    animation-iteration-count: initial;
   }
   
   @keyframes speech-bubble-title {
-    50%{
+    100%{
       transform: translateX(25%);
     }
   }
   @keyframes speech-bubble-subtitle {
-    50%{
+    100%{
       transform: translateX(-25%);
     }
   }
