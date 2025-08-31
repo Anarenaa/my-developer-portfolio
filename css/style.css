@@ -159,23 +159,31 @@ hr {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 3.5em;
-  column-gap: 30px;
-  margin: 4em 0 0 0;
   align-items: center;
   justify-content: center;
+
+  column-gap: 30px;
+  margin: 4em 0 0 0;
 }
 .grid-item {
   text-align: center;
   position: relative;
 }
 
+.experience__grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 2em;
+}
+
+.education__grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3.5em;
+}
+
 .experience__title {
   font-size: clamp(1.778rem, 4vw + 1rem, 2.667rem);;
   line-height: 56px;
   letter-spacing: -1.5px;
-  margin-bottom: 15px;
 }
 .experience__decor-rings {
   position: absolute;
